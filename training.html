@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- 
+Author: Jen Dahl
+File name: training.html
+Date: Dec 11 2024
+-->
+<html lang="en">
+    <head>
+        <title>Jeneration T | Training</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    </head>
+    <body>
+
+        <div id="container">
+
+            <!-- Mobile Nav -->
+             <nav class="mobile-nav">
+                <div id="menu-links">
+                    <a href="index.html">Home</a>
+                    <a href="training.html">Training</a>
+                    <a href="schedule.html">Schedule</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <a class="menu-icon" onclick="hamburger()">
+                    <div>&#9776;</div>
+                </a>
+             </nav>
+
+            <!-- -->
+            <header id="logo">
+                <a href="index.html"><img src="images/jt-logo.png" alt="Jeneration T logo"></a>
+            </header>
+
+            <!-- Tablet & Desktop Nav -->
+            <nav class="tab-desk">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="training.html">Training</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <!-- -->
+            <main id="content">
+
+                <div class="mobile">
+                    <h1>Training</h1>
+
+                    <p>No matter where you are, Jeneration T can give you the best exercises to get you in shape.</p>
+                    <h3>Tap each exercise to learn more!</h3>
+
+                </div>
+
+                <div class="tab-desk">
+                    <h1>Training</h1>
+
+                    <p>Whether you have access to a gym, or just want something easy to do at home, Jeneration T can give you the best exercises to get you into better shape.</p>
+                    <p>Below are some common exercises you can do anywhere.</p>
+                    <h3>Click each to learn more!</h3>
+
+                </div>
+
+                <div class="grid" id="content">
+
+                    <figure class="frame" onclick="pushup()">
+                        <img src="images/pushup.jpg" alt="pushup instructions" class="round">
+                        <figcaption class="pic-text">Pushups</figcaption>
+                    </figure>
+
+                    <figure class="frame" onclick="situp()">
+                        <img src="images/situp.jpg" alt="situp instructions" class="round">
+                        <figcaption class="pic-text">Situps</figcaption>
+                    </figure>
+
+                    <figure class="frame" onclick="plank()">
+                        <img src="images/plank.jpg" alt="plank instructions" class="round">
+                        <figcaption class="pic-text">Plank</figcaption>
+                    </figure>
+
+                    <figure class="frame" onclick="crunches()">
+                        <img src="images/crunches.jpg" alt="crunches instructions" class="round">
+                        <figcaption class="pic-text">Crunches</figcaption>
+                    </figure>
+
+                    <figure class="frame" onclick="m_climbers()">
+                        <img src="images/m-climbers.jpg" alt="mountain climbers instructions" class="round">
+                        <figcaption class="pic-text">Mountain Climbers</figcaption>
+                    </figure>
+
+                    <figure class="frame" onclick="bicycle()">
+                        <img src="images/bicycle.jpg" alt="bicycle instructions" class="round">
+                        <figcaption class="pic-text">Bicycle</figcaption>
+                    </figure>
+
+                </div>
+
+                <div id="instructions">
+                    <h2>Instructions:</h2>
+                    <p></p>
+                </div>
+
+            </main>
+
+            <!-- -->
+            <footer>
+
+                <div class="copyright">
+                    <p>&copy; Copyright 2024. All Rights Reserved.</p>
+                    <p><a href="mailto:jeneration.t@fitness.com">jeneration.t@fitness.com</a></p>
+                    <p><a href="tel:18003547890">1 (800) 354-7890</a></p>
+                </div>
+
+                <div class="social">
+                    <a href="https://www.instagram.com" target="_blank"><img src="images/instagram-logo.png" alt="Instagram logo"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo"></a>
+                    <a href="https://www.tiktok.com" target="_blank"><img src="images/tiktok-logo.png" alt="TikTok logo"></a>
+                    <a href="https://www.youtube.com" target="_blank"><img src="images/youtube-logo.png" alt="Youtube logo"></a>
+                </div>
+
+            </footer>
+
+        </div>
+
+        <script src="scripts/script.js"></script>
+
+    </body>
+</html>
